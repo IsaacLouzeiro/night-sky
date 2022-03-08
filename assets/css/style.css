@@ -97,26 +97,12 @@ main .star#star5 {
   top: 50px;
   left: 80px;
 }
-@keyframes cloudAnim {
-  0% {
-    margin-top: 3px;
-  }
-  50% {
-    margin-top: 0;
-  }
-  100% {
-    margin-top: 3px;
-  }
-}
 main .cloud {
   display: inline-block;
   position: relative;
   transform: rotate(9deg);
   z-index: 10;
   filter: drop-shadow(5px 5px 2px rgba(42, 53, 75, 0.3));
-  animation-name: cloudAnim;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 }
 main .cloud#cloud1 {
   top: 115px;
