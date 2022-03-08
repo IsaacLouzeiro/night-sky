@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #EFF1C5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #3d91cf;
+  box-shadow: inset 0 160px 0 #2a354b;
+  transform: rotate(-10deg);
+}
+main #moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #d3bc5f;
+  position: relative;
+  margin: auto;
+  top: 50px;
+}
+main .star {
+  background-color: #fff;
+  position: relative;
+  margin: auto;
+}
+main .star#star1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  right: 50px;
+  bottom: 50px;
+}
+main .star#star2 {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  left: 90px;
+  bottom: 20px;
+}
+main .star#star3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  top: 20px;
+  left: 100px;
+}
+main .star#star4 {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  top: 10px;
+  right: 90px;
+}
+main .star#star5 {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  top: 50px;
+  left: 80px;
+}
+main .cloud {
+  display: inline-block;
+  position: relative;
+  transform: rotate(9deg);
+}
+main .cloud#cloud1 {
+  top: 115px;
+  left: 40px;
+}
+main .cloud#cloud2 {
+  top: 80px;
+  left: 40px;
+}
+main .cloud .halfCloud {
+  background-color: #fff;
+  height: 5px;
+  border-radius: 2.5px;
+  position: relative;
+  margin: auto;
+}
+main .cloud .halfCloud.hC1, main .cloud .halfCloud.hC5 {
+  width: 60px;
+}
+main .cloud .halfCloud.hC2, main .cloud .halfCloud.hC4 {
+  width: 30px;
+}
+main .cloud .halfCloud.hC3 {
+  width: 100px;
+}
+main .cloud .halfCloud.hC2 {
+  right: 5px;
+}
+main .cloud .halfCloud.hC3 {
+  left: 8px;
+}
+main .cloud .halfCloud.hC4 {
+  right: 19px;
+}
+main .cloud .halfCloud.hC5 {
+  right: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
